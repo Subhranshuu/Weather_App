@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.inputBox {
+    width: 65%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f0;
+    font-size: 16px;
+}
+
+.btnSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #ff5733;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btnSearch:hover {
+    background: #ff451e;
+}
+
+.titleCard {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.title span {
+    color: #ff5733;
+}
+
+.desc {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.output {
+    visibility: hidden;
+    width: 350px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.weather-icon {
+    font-size: 60px;
+    color: #ffeb3b;
+}
+
+.tempCard {
+    display: flex;
+    align-items: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#temp {
+    margin: 0;
+}
+
+#sup {
+    font-size: 24px;
+    color: #333;
+}
+
+#loc-time {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#city-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#countryName {
+    background: #ff5733;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
