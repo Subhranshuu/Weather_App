@@ -4,7 +4,7 @@ This is a weather application that allows users to get real-time weather updates
 
 ## Demo
 
-Check out the live demo of the app here: [Weather App](https://weather-app-tau.vercel.app)
+Check out the live demo of the app here: [Weather App](https://weather-app-subhranshu.vercel.app/)
 
 ## Features
 
@@ -47,7 +47,7 @@ Check out the live demo of the app here: [Weather App](https://weather-app-tau.v
     npm start
     ```
 
-5. Open `https://wheather-app-tau.vercel.app/` in your browser to view the app.
+5. Open `https://weather-app-subhranshu.vercel.app/` in your browser to view the app.
 
 ## License
 
