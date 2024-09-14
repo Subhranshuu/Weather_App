@@ -47,7 +47,7 @@ Check out the live demo of the app here: [Weather App](https://weather-app-tau.v
     npm start
     ```
 
-5. Open `http://localhost:3000` in your browser to view the app.
+5. Open `https://wheather-app-tau.vercel.app/` in your browser to view the app.
 
 ## License
 
